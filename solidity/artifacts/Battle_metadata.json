@@ -1,0 +1,152 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "nfts",
+						"type": "uint256[]"
+					}
+				],
+				"name": "applyBattleSquad",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum NftType",
+								"name": "nftType",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct Nft[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNfts",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum NftType",
+								"name": "nftType",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct Nft[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ownedNfts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum NftType",
+						"name": "nftType",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"battle.sol": "Battle"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/Address.sol": {
+			"keccak256": "0xf96f969e24029d43d0df89e59d365f277021dac62b48e1c1e3ebe0acdd7f1ca1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec772b45a624be516f1c81970caa8a2e144301e9d0921cbc1a2789fef39a1269",
+				"dweb:/ipfs/QmNyjwxCrGhQMyzLD93oUobJXVe9ceJvRvfXwbEtuxPiEj"
+			]
+		},
+		"battle.sol": {
+			"keccak256": "0x72b324643c61071d7fd9e953c7bb6339d97be9b1c212cebe227e24fe1118f7da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d8abc8784c94fd7b4722f6829745881b370b9ca1714245210701c47a2d3eff98",
+				"dweb:/ipfs/QmSqv3fW6YuPnNRMfyRHRQydcKb5xnMkwG3uFwF2DTaUXP"
+			]
+		},
+		"battleDeclaration.sol": {
+			"keccak256": "0xaa830e155a693eab3ef33739b21d3b854d7ecfa0e31243fca084c53f5ad03b9b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ade5302fb5e8c542350524ea22ddde9ff8f7289938def9f32e6c604b8ccc15ad",
+				"dweb:/ipfs/QmRWoWqW1ouPMNZ3dhNGjxM6U6CxG5bucg5HhN7izJgSWN"
+			]
+		}
+	},
+	"version": 1
+}
