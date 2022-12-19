@@ -10,14 +10,9 @@ contract Battle {
     constructor() {
         ownedNfts[msg.sender].push(Nft(1, NftType.Unit));
         ownedNfts[msg.sender].push(Nft(1, NftType.Unit));
-        ownedNfts[msg.sender].push(Nft(1, NftType.Unit));
-        ownedNfts[msg.sender].push(Nft(1, NftType.Unit));
-        ownedNfts[msg.sender].push(Nft(1, NftType.Unit));
     }
 
-    function mint() public {
-        
-    }
+    function mint() public {}
 
     function getNfts() public view returns (Nft[] memory) {
         return ownedNfts[msg.sender];

@@ -67,6 +67,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -132,11 +139,11 @@
 			]
 		},
 		"battle.sol": {
-			"keccak256": "0x72b324643c61071d7fd9e953c7bb6339d97be9b1c212cebe227e24fe1118f7da",
+			"keccak256": "0x307779476926dcd6aacdac7497ae8673078d62c12fde6435c59355206c3bbc70",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d8abc8784c94fd7b4722f6829745881b370b9ca1714245210701c47a2d3eff98",
-				"dweb:/ipfs/QmSqv3fW6YuPnNRMfyRHRQydcKb5xnMkwG3uFwF2DTaUXP"
+				"bzz-raw://e554e75d923044c3feda4805eefe260e4f3569d3c26623424fd798962347f155",
+				"dweb:/ipfs/QmTxDpgfHoPheMuezkhTY45vwKo9GR8LtJnYEpLS9iHNhN"
 			]
 		},
 		"battleDeclaration.sol": {
